@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="cssteste.css">
+        <title>Skyrim Fansite</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <a href="teste.html"><img src="skyrim_logo.png" alt="Main Logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Sets</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="quests.html">Quests</a></li>
+                <li><a href="dlc.html">DLC's</a></li>
+                <li><a href="cidades.html">Cidades</a></li>
+                <li><a href="magias.html">Magias</a></li>
+                <li><a id="active" href="contato.html">Contato</a></li>
+                 <li><a href="login.html">Login</a>    
+                      </ul>
+        </nav>
+        <div id="maindiv">
+            <article>
+              <div id="introcontato">
+                  <h1>Contato</h1>
+                </div>                 
+            </article>
+            <hr>
+            <form class="input" method="POST" action="recebeDados.php">
+               Nome: <input  style="color: black; border-radius: 4px;" type="text" name="nome" placeholder="Nome" required>
+               Sobrenome: <input  style="color: black; border-radius: 4px;" type="text" name="sobrenome" placeholder="Sobrenome" required>
+               
+               <p>Email: <input  style="color: black; border-radius: 4px;" type="text" name="email" placeholder="Email" required>
+               Sexo:<input type="radio" name="gender" value="required" checked> Masculino
+                    <input type="radio" name="gender" value="required"> Feminino<br>
+               </p>
+               
+               <textarea rows="5" cols="60" name="comment" form="usrform" placeholder="Digite seu comentario" ></textarea><br>
+               <p><input id="enter" type="submit" value="Enviar"</p>
+               
+               
+               
+            </form> <br>
+            <footer>
+                <center>Vitor de Lima - Guilherme D. P. Sant'anna - Nicollas B. Neves</center>
+            </footer>
+        </div>

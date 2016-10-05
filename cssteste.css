@@ -1,0 +1,457 @@
+footer {
+    clear: both;
+    border-top: 1px solid white;
+    padding: 15px;
+}
+nav {
+    opacity: 0.9;
+}
+#maindiv {
+    opacity: 0.9;
+    color:white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    height: 800px;
+    width: 1230px;
+    background-color: black;
+    box-shadow: 0px 0px 100px #343d46 inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+    text-align: justify;
+}
+#introducao {
+    padding: 10px 380px 10px 10px;
+    text-indent: 50px;
+    line-height: 1.4;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 14pt;
+    
+}
+#mapimg {
+    margin: -305px 20px 10px 10px;
+    border: 1px solid #555555;
+    float:right;
+    
+}
+#contactdiv {
+    padding: 5px;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px grey;
+    text-align: center;
+    border: 1px solid white;
+    height: 400px;
+    width: 360px;
+    margin: 10px;
+    float: left;
+}
+#tabela{
+    height: 400px;
+    width: 810px;
+    margin: 10px;
+    float: left;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    letter-spacing: 8px;
+    margin-left: 60px;
+    text-shadow: 2px 2px 3px grey;
+    
+    
+    
+}
+#linksdiv {
+    border: 1px solid white;
+    height: 400px;
+    width: 810px;
+    margin: 10px;
+    float: left;
+    color: white;
+    text-shadow: 2px 2px 3px grey;
+}
+body {
+    background-image: url("skyrim_bg.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+header {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+ul {
+    font-family:Palatino Linotype;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid white;
+    margin: 0px 50px -1px 50px;
+}
+li {
+    float: left;
+    width: 80px;
+}
+li a {
+    display:block;
+    color: white;
+    padding: 8px 0 8px 2px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover {
+    background-color: white;
+    color:black;
+}
+#active {
+    background-color: white;
+    color:black;
+    
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+#sets{
+    padding: 20px 30px;
+    
+}
+#npcs{
+     padding: 20px 30px;
+}
+#caixaS{
+    background-color: black;
+    
+    
+}
+tr td{
+    width: 160px;
+    height: 160px; 
+    
+    }
+#vidro, #argorian{
+    width: 380px;
+    margin: 23px;
+    float: left;
+    border: 1px solid white;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+}
+#pele, #dummer{
+    width: 380px;
+    margin: 23px;
+    float: right;
+    border: 1px solid white;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+}
+#couro, #orc{
+    width: 380px;
+    margin-top: 32px;
+    margin-left:520px;
+    border: 1px solid white;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+}
+#orcish, #khajiit{
+    width: 380px;
+    margin: 23px;
+    float: left;
+    border: 1px solid white;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+}
+#daedric, #nordicos{
+    width: 380px;
+    margin: 23px;
+    float: right;
+    border: 1px solid white;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+}
+#dragon, #bretao{
+    width: 380px;
+    margin-top: 32px;
+    margin-left:520px;
+    border: 1px solid white;
+    padding: 10px;
+    text-shadow: 2px 2px 3px grey;
+    margin-bottom: 10px;
+}
+#itens{
+    float: left;
+    margin-left:8px;
+    text-shadow: 2px 2px 3px grey;
+   
+}
+#armor{
+    height: 400px;
+    width: 810px;
+    margin: 10px;
+    float: left;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    letter-spacing: 8px;
+    margin-left: 60px;
+    text-shadow: 2px 2px 3px grey;
+}
+#texto {
+    padding: 10px 10px 10px 10px;
+    text-indent: 50px;
+    line-height: 1.4;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 14pt;
+    text-shadow: 2px 2px 3px grey;
+}
+#page2 {
+    opacity: 0.9;
+    color:white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    height: 2000px;
+    width: 1480px;
+    background-color: black;
+    box-shadow: 0px 0px 100px #343d46 inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+    text-align: justify;
+}
+#conjuracao{
+    width: 380px;
+    margin: 23px;
+    float: left;
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+#destruicao{
+    width: 380px;
+    margin: 23px;
+    float: right;
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+#alteracao{
+    width: 380px;
+    margin-top: 32px;
+    margin-left:520px;
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+#ilusao{
+    width: 380px;
+    margin: 50px;
+    float: left;
+	margin-left:260px;
+    border: 1px solid white;
+    padding: 10px;   
+}
+#restauracao{
+    width: 380px;
+    margin: 50px;
+    float: right;
+	margin-right:260px;
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+#maindivmagias {
+    opacity: 0.9;
+    color:white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    height: 1500px;
+    width: 1480px;
+    background-color: black;
+    box-shadow: 0px 0px 100px #343d46 inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+    text-align: justify;
+}
+#introducaomagias {
+    padding: 10px 10px 10px 10px;
+    text-indent: 50px;
+    line-height: 1.4;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 14pt;
+    
+}
+.cidades {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    text-align: justify;
+    text-shadow: 2px 2px 3px grey;
+    padding: 10px;
+}
+.historia {
+    width: 800px;
+    float: left;
+}
+.fotos {
+    float: right;
+    border: 2px white solid;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#Whiterun, #Solitude, #Winterhold, #Windhelm, #Riften, #Dawnstar {
+    clear: both;
+}
+hr {
+    clear: both;
+}
+#maindivcity {
+    opacity: 0.9;
+    color:white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    height: 3950px;
+    width: 1230px;
+    background-color: black;
+    box-shadow: 0px 0px 100px #343d46 inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+    text-align: justify;
+}
+#introducaocity {
+    padding: 10px 380px 10px 10px;
+    text-indent: 50px;
+    line-height: 1.4;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 14pt;
+    
+}
+#introcontato{
+    text-align: center;
+    
+    
+}
+.input{
+    text-align: center;
+}
+#enter  {
+    width: 30%;
+    background-color: darkgrey;
+    color: darkblack;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 25px
+        
+}
+.maindivquests {
+    opacity: 0.9;
+    color:white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    height: 1550px;
+    width: 1230px;
+    background-color: black;
+    box-shadow: 0px 0px 100px #343d46 inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+    text-align: justify;
+}
+.introducaoquests {
+    padding: 10px 10px 10px 10px;
+    text-indent: 50px;
+    line-height: 1.4;
+    text-shadow: 2px 2px 3px grey;
+    font-size: 14pt;
+}
+.main {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    text-align: justify;
+    text-shadow: 2px 2px 3px grey;
+    padding: 15px;
+}
+#maindivdlc {
+    opacity: 0.9;
+    color:white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    height: 2200px;
+    width: 1230px;
+    background-color: black;
+    box-shadow: 0px 0px 100px #343d46 inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+    text-align: justify;
+}
+#form_login{
+    margin-left: 600px; 
+    margin-right: 600px;
+    box-shadow: 0px 0px 100px white inset;
+    padding: 100px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    opacity: 0.9;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+#botao_login {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: greenyellow;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}    
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}   
+#divprincipal {
+    opacity: 0.7;
+    color:white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    height: auto;
+    width: auto;
+    background-color: black;
+    box-shadow: 0px 0px 100px #343d46 inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid white;
+}

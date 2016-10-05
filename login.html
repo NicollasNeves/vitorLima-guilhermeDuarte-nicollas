@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titulo</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="cssteste.css">
+        <script type="text/javascript" src="login.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="skyrim_logo.png" alt="Main Logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a id="active" href="index.html">Home</a></li>
+                <li><a href="page2.html">Sets</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="quests.html">Quests</a></li>
+                <li><a href="dlc.html">DLC's</a></li>
+                <li><a href="cidades.html">Cidades</a></li>
+                <li><a href="magias.html">Magias</a></li>
+                <li><a href="contato.html">Contato</a></li>    
+                <li><a id="active" href="login.html">Login</a>    
+            </ul>
+        </nav>
+        <div id="divprincipal">
+                        <div id="form_login">
+                            <form method="POST" action="recebeDados.php">
+                                <h2>LOGIN</h2>
+                                <input type="text" name="email" placeholder="Email..." />
+                                <input type="password" name="senha" placeholder="Password..." />
+                                <br><button id="botao_login" onclick="login()"><b>LOGIN</b></button>
+                            </form>
+                        </div>
+                        <div id="form_login">
+                            <form method="POST" action="recebeDados.php">
+                                <h2>SIGN UP</h2>
+                                <input type="text" name="email" placeholder="Email..." />
+                                <input type="text" name="username" placeholder="User..." />
+                                <input type="password" name="senha" placeholder="Password..." />
+                                <input type="password" placeholder="Confirm Password..." />
+                                <button id="botao_login" onclick="sign_up()"><b>SIGN UP</b></button>
+                            </form>
+                        </div>
+        </div>
+        
+    </body>
+</html>
